@@ -4,7 +4,7 @@ import Navigasi from './Navbar/Navbar'
 import Header from './Content/Header'
 import Category from './Content/Category'
 import Populer from './Content/Populer'
-import MyOrder from './Orderan/MyOrder'
+import Order from './Order/Order'
 import Modal from './Content/Modal'
 
 class App extends Component {
@@ -59,7 +59,7 @@ class App extends Component {
                 <Populer popular={this.state.popular} onShowModal={this.handlerModal} />
                 </div>
                 <div className="col-3 bg-light sidenav pt-5">
-                <MyOrder item={this.state.order} />
+                <Order item={this.state.order} />
                 </div>
             </div>
             </div>
@@ -68,4 +68,4 @@ class App extends Component {
         )
     }
 }
-export default App
+export default App;

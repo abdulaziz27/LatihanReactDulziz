@@ -29,9 +29,9 @@ class MyOrder extends Component {
       <div className="wrapper order">
         <h2 className="h3 mb-4">Pesanan Saya</h2>
         <div className="card p-3 mb-4">
-          <p className="name">Awwala Khalqin N</p>
-          <p className="saldo">Rp. 10.000.000,-</p>
-          <p className="card-number mb-0">1012*********2002</p>
+          <p className="name">Abdul Aziz</p>
+          <p className="saldo">Rp. 1.000.000,-</p>
+          <p className="card-number mb-0">2709*********879</p>
         </div>
 
         <div className="calculate p-3">
@@ -41,6 +41,7 @@ class MyOrder extends Component {
                 <img src={item.image} width="80" />
                 <p className="mb-0">{item.pesan}</p>
                 <p className="mb-0">x</p>
+                <p className="mb-0">{item.name}</p>
                 <p className="mb-0">Rp. {item.harga * item.pesan}</p>
               </div>
             ) : ''
@@ -50,8 +51,8 @@ class MyOrder extends Component {
             <div className="wrapper">
               <img src="https://image.shutterstock.com/image-vector/shipping-fast-delivery-man-riding-260nw-1573225051.jpghttps://image.shutterstock.com/image-vector/shipping-fast-delivery-man-riding-260nw-1573225051.jpg" alt="" height="35" />
             </div>
-            <p className="mb-0">jl.Cipondok no 13...</p>
-            <p className="mb-0">Gratis</p>
+            <p className="mb-0">Bogor</p>
+            <p className="mb-0">Free Ongkir</p>
           </div>
         </div>
 
