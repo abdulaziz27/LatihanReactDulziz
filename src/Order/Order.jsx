@@ -49,7 +49,7 @@ class MyOrder extends Component {
 
           <div className="items d-flex justify-content-between align-items-center mb-3">
             <div className="wrapper">
-              <img src="https://image.shutterstock.com/image-vector/shipping-fast-delivery-man-riding-260nw-1573225051.jpghttps://image.shutterstock.com/image-vector/shipping-fast-delivery-man-riding-260nw-1573225051.jpg" alt="" height="35" />
+              <img src="https://www.flaticon.com/svg/static/icons/svg/3202/3202926.svg" alt="" height="35" />
             </div>
             <p className="mb-0">Bogor</p>
             <p className="mb-0">Free Ongkir</p>

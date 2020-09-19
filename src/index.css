@@ -67,7 +67,7 @@ input.form-control {
 }
 
 .sidenav a:hover {
-  color: #064579;
+  color: #FB7140;
 }
 
 .sidenav h2{
@@ -185,7 +185,7 @@ p.time {
 }
 
 .a-popular:hover{
-  color: #6455C2;
+  color: #FB7140;
 }
 
 .btn-orange{
@@ -227,6 +227,7 @@ p.time {
   display: flex;
   justify-content: center;
   color: #636363;
+  overflow: auto;
 }
 
 .total-rp{

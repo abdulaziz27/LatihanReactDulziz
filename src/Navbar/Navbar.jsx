@@ -25,10 +25,10 @@ class Navigasi extends Component {
                   <input type="text" placeholder="Cari Makan Bang?" className="form-control bg-search" />
                 </div>
               </div>
-              <div className="col-4 d-flex justify-content-end align-items-center user">
+              <div className="col-4 d-flex justify-content-between align-items-center user">
                 <i className="fas fa-heart"></i>
-                <span className="badge bg-warning rounded-pill mx-4">3</span>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQijIgFGgv9Sm0xU9Onr5iFJj4ozwanNvu0VQ&usqp=CAU" width="30" height="30" />
+                <span className="badge bg-warning rounded-pill mx-4">2</span>
+                <img src="https://image.flaticon.com/icons/png/512/147/147144.png" width="30" height="30" />
               </div>
             </div>
           </div>
