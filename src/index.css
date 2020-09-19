@@ -6,10 +6,13 @@ body{
 .inner-addon { 
     position: relative; 
 }
-.search {
-    width: 36%;
+.bg-trans {
+  background-color: transparent;
+  border: none;
 }
-
+.input-group-text {
+  
+}
 input.form-control {
   background-color: #f1f1f1;
   border: none;
@@ -19,22 +22,6 @@ input.form-control {
 .bg-white{
   background-color: white;
 }
-
-/* style icon */
-.inner-addon .fa-search {
-  position: absolute;
-  padding: 10px;
-  pointer-events: none;
-  color: #848484;
-}
-
-/* align icon */
-.left-addon .fa-search  { left:  0px;}
-.right-addon .fa-search { right: 0px;}
-
-/* add padding  */
-.left-addon input  { padding-left:  30px; }
-.right-addon input { padding-right: 30px; }
 
 .user img{
   border-radius: 50%;

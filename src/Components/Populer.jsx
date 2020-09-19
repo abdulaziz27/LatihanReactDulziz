@@ -52,7 +52,7 @@ class Populer extends Component {
                     </div>
                     <div className="card-body">
                       <h4 className="h5">{item.name}</h4>
-                      <div className="wrapper d-flex">
+                      <div className="wrapper tex d-flex justify-content-between">
                         <p className="mr-2">⭐ {item.rating}</p>
                         <p>Rp. {item.harga}</p>
                       </div>

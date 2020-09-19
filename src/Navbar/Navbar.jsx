@@ -21,13 +21,13 @@ class Navigasi extends Component {
               </div>
               <div className="col-5">
                 <div className="input-group input-group-sm">
-                  <span className="input-group-text bg-search"><i className="fas fa-search" aria-hidden="true"></i></span>
+                  <span className="input-group-text bg-trans"><i className="fas fa-search" aria-hidden="true"></i></span>
                   <input type="text" placeholder="Cari Makan Bang?" className="form-control bg-search" />
                 </div>
               </div>
               <div className="col-4 d-flex justify-content-between align-items-center user">
-                <i className="fas fa-heart"></i>
-                <span className="badge bg-warning rounded-pill mx-4">2</span>
+                <img src="https://www.flaticon.com/svg/static/icons/svg/535/535234.svg" width="30" height="30" />
+                <span className="badge bg-warning rounded-circle px-2 py-2 mx-4" >2</span>
                 <img src="https://image.flaticon.com/icons/png/512/147/147144.png" width="30" height="30" />
               </div>
             </div>
