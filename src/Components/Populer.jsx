@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Rating from './Rating'
+import Rating from './Rate'
 
 class Populer extends Component {
   constructor(props) {

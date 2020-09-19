@@ -33,14 +33,6 @@ class Header extends Component {
         <span className="sr-only">Next</span>
       </a>
     </div>
-    // </div>
-      // {/* <div className="wrapper header mx-5 p-3 rounded d-flex">
-      //   <img src="img/food.png" width="200" className="mr-4" />
-      //   <div className="content">
-      //     <h3 className="title">Promo Hari Ini</h3>
-      //     <p className="subtitle">Perut kenyang, otak kencang</p>
-      //   </div>
-      // </div> */}
     )
   }
 }
